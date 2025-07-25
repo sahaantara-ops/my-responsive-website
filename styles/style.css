@@ -548,5 +548,104 @@ body{
     .subscribe-box button:hover {
       background-color: #c63f1f;
     }
+ @media (max-width: 768px) {
+            /* Join Section Mobile */
+            .join-section {
+                padding: 60px 15px;
+            }
 
+            .join-title {
+                font-size: 32px;
+                margin-bottom: 30px;
+            }
+
+            .newsletter-form {
+                flex-direction: column;
+                max-width: 100%;
+            }
+
+            .email-input {
+                padding: 15px 20px;
+                font-size: 14px;
+            }
+
+            .subscribe-btn {
+                padding: 15px 20px;
+                font-size: 14px;
+            }
+
+            /* Footer Mobile */
+            .footer-section {
+                padding: 40px 15px 30px;
+            }
+
+            .footer-container {
+                grid-template-columns: 1fr;
+                gap: 40px;
+                text-align: center;
+            }
+
+            .footer-logo-col {
+                order: 1;
+                align-items: center;
+            }
+
+            .footer-links {
+                order: 2;
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .social-media {
+                order: 3;
+                justify-content: center;
+            }
+
+            .footer-description {
+                text-align: center;
+                max-width: 300px;
+            }
+        }
+
+        /* Extra Small Mobile */
+        @media (max-width: 480px) {
+            .join-title {
+                font-size: 24px;
+                margin-bottom: 25px;
+            }
+
+            .footer-container {
+                gap: 30px;
+            }
+
+            .footer-links {
+                gap: 25px;
+            }
+
+            .footer-links ul {
+                gap: 12px;
+            }
+
+            .footer-links a {
+                font-size: 14px;
+            }
+
+            .social-link {
+                width: 40px;
+                height: 40px;
+                font-size: 18px;
+            }
+        }
+
+        /* Tablet */
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .footer-container {
+                grid-template-columns: 1fr 1.5fr 1fr;
+                gap: 40px;
+            }
+
+            .join-title {
+                font-size: 42px;
+            }
+        }
 
