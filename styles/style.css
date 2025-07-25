@@ -143,7 +143,7 @@ body{
     height: 520px;
     margin-left: 120px;
     margin-bottom: 120px;
-    position: relative;
+    
 }
 .template-text{
     width: 500px;
@@ -156,6 +156,8 @@ body{
     height: 200px;
     position: absolute;
     position: top right;
+    margin-left: 550px;
+    margin-bottom: 20px;
     
 }
     
